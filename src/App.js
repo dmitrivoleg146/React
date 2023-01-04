@@ -1,5 +1,6 @@
 import styles from './App.module.css';
 import Job from './Job';
+import List from './List'
 
 function App() {
   const age = 15;
@@ -13,6 +14,7 @@ function App() {
        <Job salary={20000} title="Middle" company="Okex"/>
        <Job salary={30000} title="Seniour" company="Mexc"/>
        {isGrean ? <button>Click me</button> : <h1>Cool</h1>}
+       <List />
     </div>
   ); //40
 }
