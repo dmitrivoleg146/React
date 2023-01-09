@@ -3,22 +3,24 @@ import Job from './Job';
 import List from './List'
 import Planets from './Planets';
 import Hook from './Hook'
+import TodoList from './TodoList';
 
 function App() {
   // const age = 15;
   // const isGrean = true;
-  const planets =[
-    {name:"Mars" , isGasPlanet:true},
-    {name:"Earth", isGasPlanet:true},
-    {name:"Uranus", isGasPlanet:false},
-    {name:"Neptune", isGasPlanet:false}
-  ]
+  // const planets =[
+  //   {name:"Mars" , isGasPlanet:true},
+  //   {name:"Earth", isGasPlanet:true},
+  //   {name:"Uranus", isGasPlanet:false},
+  //   {name:"Neptune", isGasPlanet:false}
+  // ]
   
   return (
     <div className={styles.App}>
-      {planets.map((planet,key)=> !planet.isGasPlanet &&
-          <h1>{planet.name}</h1>
-      )}
+
+      {/* {planets.map((planet,key)=> !planet.isGasPlanet &&
+          <h1 key={key}>{planet.name}</h1>
+      )} */}
 
       {/* //with {} works if in map, but for ternary we don't use them and not use a return */}
         {/* {age>=19 ? <h1>Over Age</h1> : <h1>Under Age</h1>}
@@ -28,6 +30,8 @@ function App() {
        <Job salary={30000} title="Seniour" company="Mexc"/>
        {isGrean ? <button>Click me</button> : <h1>Cool</h1>}
        <List />  */}
+
+       <TodoList />
     </div>
   ); 
 }
