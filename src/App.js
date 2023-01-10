@@ -4,6 +4,7 @@ import List from './List'
 import Planets from './Planets';
 import Hook from './Hook'
 import TodoList from './TodoList';
+import ShowText from './ShowText';
 
 function App() {
   // const age = 15;
@@ -30,8 +31,10 @@ function App() {
        <Job salary={30000} title="Seniour" company="Mexc"/>
        {isGrean ? <button>Click me</button> : <h1>Cool</h1>}
        <List />  */}
+       {/* Stages of react lifecycle: mounting, updating, unmounting */}
 
-       <TodoList />
+       {/* <TodoList /> */}
+       <ShowText/>
     </div>
   ); 
 }
