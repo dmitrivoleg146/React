@@ -6,6 +6,7 @@ import Hook from './Hook'
 import TodoList from './TodoList';
 import ShowText from './ShowText';
 import Api from './Api';
+import Api2 from './Api2';
 
 function App() {
   // const age = 15;
@@ -35,7 +36,7 @@ function App() {
        {/* Stages of react lifecycle: mounting, updating, unmounting */}
 
        {/* <TodoList /> */}
-       <Api/>
+       <Api2/>
     </div>
   ); 
 }
