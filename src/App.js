@@ -7,6 +7,8 @@ import TodoList from './TodoList';
 import ShowText from './ShowText';
 import Api from './Api';
 import Api2 from './Api2';
+import Excuse from './Excuse';
+import RoutesPractise from "./RoutesPractise";
 
 function App() {
   // const age = 15;
@@ -36,7 +38,10 @@ function App() {
        {/* Stages of react lifecycle: mounting, updating, unmounting */}
 
        {/* <TodoList /> */}
-       <Api2/>
+       {/* <Api2/> */}
+       {/* <Excuse/> */}
+       <RoutesPractise />
+       
     </div>
   ); 
 }
