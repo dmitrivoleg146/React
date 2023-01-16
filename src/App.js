@@ -9,6 +9,7 @@ import Api from './Api';
 import Api2 from './Api2';
 import Excuse from './Excuse';
 import RoutesPractise from "./RoutesPractise";
+import Forms from './Forms';
 
 function App() {
   // const age = 15;
@@ -40,7 +41,8 @@ function App() {
        {/* <TodoList /> */}
        {/* <Api2/> */}
        {/* <Excuse/> */}
-       <RoutesPractise />
+       {/* <RoutesPractise /> */}
+       <Forms/>
        
     </div>
   ); 

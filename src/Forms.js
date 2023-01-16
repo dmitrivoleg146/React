@@ -15,9 +15,7 @@ const Forms = () => {
         console.log(data)
     }
 
-    const {register, handleSubmit} = useForm({
-        resolver:
-    });
+    const {register, handleSubmit} = useForm()
   return (
     <div>
         <form onSubmit={handleSubmit(onSubmit)}>
