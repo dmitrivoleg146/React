@@ -10,6 +10,8 @@ import Api2 from './Api2';
 import Excuse from './Excuse';
 import RoutesPractise from "./RoutesPractise";
 import Forms from './Forms';
+import Toggle from './Toggle';
+import QueyCat from './QueyCat';
 
 function App() {
   // const age = 15;
@@ -42,7 +44,9 @@ function App() {
        {/* <Api2/> */}
        {/* <Excuse/> */}
        {/* <RoutesPractise /> */}
-       <Forms/>
+       {/* <Forms/> */}
+       {/* <Toggle/> */}
+       <QueyCat />
        
     </div>
   ); 
